@@ -1,12 +1,12 @@
 Summary:	A package that adds additional features to the panic handler
 Summary(pl):	Pakiet dodaj±cy dodatkowe mo¿liwo¶ci do procedury obs³ugi paniki
 Name:		panicsel
-Version:	1.3.8
+Version:	1.4.0
 Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/panicsel/%{name}-%{version}.tar.gz
-# Source0-md5:	863419802a659441c8de010fc2f623fe
+# Source0-md5:	3f4a0d47f07e9724c1fa00d110687e40
 URL:		http://panicsel.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -47,6 +47,7 @@ Sterownikiem IPMI mo¿e byæ sterownik Intela (/dev/imb) lub valinux
 %build
 %{__aclocal}
 %{__autoconf}
+%{__autoheader}
 %{__automake}
 %configure
 %{__make}
@@ -67,4 +68,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING ChangeLog README TODO doc/UserGuide
 %attr(755,root,root) %{_sbindir}/*
+%dir %{_datadir}/panicsel
+%{_datadir}/panicsel/UserGuide
+%{_datadir}/panicsel/bmclan.mib
 %{_mandir}/man?/*
