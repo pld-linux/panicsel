@@ -1,12 +1,12 @@
 Summary:	A package that adds additional features to the panic handler
 Summary(pl):	Pakiet dodaj±cy dodatkowe mo¿liwo¶ci do procedury obs³ugi paniki
 Name:		panicsel
-Version:	1.4.3
+Version:	1.4.8
 Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/panicsel/%{name}-%{version}.tar.gz
-# Source0-md5:	29e34a1e4de58b483fc584d6a6e963cd
+# Source0-md5:	e0c580d9eec9082e6c03fc107cae5021
 URL:		http://panicsel.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -70,5 +70,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_sbindir}/*
 %dir %{_datadir}/panicsel
 %{_datadir}/panicsel/UserGuide
-%{_datadir}/panicsel/bmclan.mib
+%{_datadir}/panicsel/bmclan*.mib
+%attr(755,root,root) %{_datadir}/panicsel/checksel
 %{_mandir}/man?/*
