@@ -1,12 +1,12 @@
 Summary:	A package that adds additional features to the panic handler
 Summary(pl):	Pakiet dodaj±cy dodatkowe mo¿liwo¶ci do procedury obs³ugi paniki
 Name:		panicsel
-Version:	1.4.0
+Version:	1.4.1
 Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/panicsel/%{name}-%{version}.tar.gz
-# Source0-md5:	3f4a0d47f07e9724c1fa00d110687e40
+# Source0-md5:	87cdb107e0b2c7ff4c6c770c9938168d
 URL:		http://panicsel.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
