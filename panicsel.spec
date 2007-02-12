@@ -1,5 +1,5 @@
 Summary:	A package that adds additional features to the panic handler
-Summary(pl):	Pakiet dodaj±cy dodatkowe mo¿liwo¶ci do procedury obs³ugi paniki
+Summary(pl.UTF-8):   Pakiet dodajÄ…cy dodatkowe moÅ¼liwoÅ›ci do procedury obsÅ‚ugi paniki
 Name:		panicsel
 Version:	1.4.8
 Release:	1
@@ -26,19 +26,19 @@ order to talk to the BMC/firmware interface.
 An IPMI driver can be provided by either the Intel IPMI driver
 (/dev/imb) or the valinux IPMI driver (/dev/ipmikcs).
 
-%description -l pl
-Modu³ j±dra panicsel dodaje komunikat OS Critical Stop do loga zdarzeñ
-(Event Log) systemowego BIOS-u, wysy³a alarm BMC LAN po SNMP i ustawia
-diodê LED Critical Alarm Telco w przypadku wyst±pienia paniki.
+%description -l pl.UTF-8
+ModuÅ‚ jÄ…dra panicsel dodaje komunikat OS Critical Stop do loga zdarzeÅ„
+(Event Log) systemowego BIOS-u, wysyÅ‚a alarm BMC LAN po SNMP i ustawia
+diodÄ™ LED Critical Alarm Telco w przypadku wystÄ…pienia paniki.
 
-Pakiet panicsel dostarcza narzêdzia do ogl±dania SEL (showsel),
-wykonywania sprzêtowego resetu (hwreset) oraz ustawiania filtra
-zdarzeñ (Platform Event Filter) aby zezwoliæ na alarmy BMC LAN z
-komunikatów OS Critical Stop (pefconfig). Wymaga pakietu ze
-sterownikiem IPMI (ipmidrvr), aby móc porozumieæ siê z interfejsem
+Pakiet panicsel dostarcza narzÄ™dzia do oglÄ…dania SEL (showsel),
+wykonywania sprzÄ™towego resetu (hwreset) oraz ustawiania filtra
+zdarzeÅ„ (Platform Event Filter) aby zezwoliÄ‡ na alarmy BMC LAN z
+komunikatÃ³w OS Critical Stop (pefconfig). Wymaga pakietu ze
+sterownikiem IPMI (ipmidrvr), aby mÃ³c porozumieÄ‡ siÄ™ z interfejsem
 BMC/firmware.
 
-Sterownikiem IPMI mo¿e byæ sterownik Intela (/dev/imb) lub valinux
+Sterownikiem IPMI moÅ¼e byÄ‡ sterownik Intela (/dev/imb) lub valinux
 (/dev/ipmikcs).
 
 %prep
