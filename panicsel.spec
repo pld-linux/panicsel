@@ -1,5 +1,5 @@
 Summary:	A package that adds additional features to the panic handler
-Summary(pl.UTF-8):   Pakiet dodający dodatkowe możliwości do procedury obsługi paniki
+Summary(pl.UTF-8):	Pakiet dodający dodatkowe możliwości do procedury obsługi paniki
 Name:		panicsel
 Version:	1.4.8
 Release:	1
